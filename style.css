@@ -1,0 +1,94 @@
+/* ---------- GLOBAL ---------- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0b0b0b;          /* true dark (almost black) */
+    color: #e5e5e5;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #22c55e;               /* fintech green */
+    margin-bottom: 4px;
+}
+
+p {
+    color: #b0b0b0;
+    margin-top: 0;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+    background: #151515;          /* dark grey card */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 850px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+/* ---------- INPUTS ---------- */
+input {
+    padding: 10px;
+    margin: 6px;
+    width: 220px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #e5e5e5;
+}
+
+/* ---------- BUTTON ---------- */
+button {
+    padding: 10px 22px;
+    background: #22c55e;
+    border: none;
+    color: #052e16;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+/* ---------- TABLE ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    color: #9ca3af;
+    font-weight: 500;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+td {
+    color: #e5e5e5;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* ---------- CHART ---------- */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- INSIGHTS ---------- */
+#insights {
+    text-align: left;
+    color: #d1d5db;
+    line-height: 1.6;
+}
